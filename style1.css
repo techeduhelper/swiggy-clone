@@ -28,6 +28,7 @@
     font-weight: 600;
     margin: 0px;
     padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 
@@ -103,27 +104,6 @@
 
 }
 
-.locationicon {
-    width: 100px;
-    height: 25px;
-    color: gray;
-    margin: 40px auto auto 0px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    flex-direction: column;
-}
-
-.location {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 310px;
-    left: 400px;
-    padding: 15px;
-
-}
-
 .btn-location:hover {
     background-color: lightgrey;
 }
@@ -131,15 +111,14 @@
 .findfood {
     text-decoration: none;
     cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 2rem 2rem;
+    text-align: center;
     color: white;
-    letter-spacing: 0;
-    background-color: orange;
-    line-height: 20px;
-    margin: 0;
+    letter-spacing: 1;
+    background-color: rgb(255, 165, 0);
+    height: 100%;
+    padding: 0 2rem;
+    border: none;
+
 }
 
 .cities {
@@ -169,8 +148,59 @@
 .search-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 3rem;
+    margin-top: 1.5rem;
+    border: 1px solid orange;
+    justify-content: space-between;
+
 }
 
 .text-container {
     margin-top: 50px;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 5px 0px;
+
+
+}
+
+.locationicon {
+    height: 100%;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+.location {
+    height: 100%;
+    border: none;
+    padding: 0px 10px;
+    background-color: transparent;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.findfood-container {
+    height: 100%;
+}
+
+.location:hover {
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.location>span {
+    white-space: nowrap;
 }
