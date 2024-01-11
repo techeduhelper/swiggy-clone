@@ -15,8 +15,10 @@
 }
 
 .banner {
-    height: 500px;
-    min-width: 100%;
+    height: 63%;
+
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -145,6 +147,10 @@
     text-decoration: none;
 }
 
+.list:nth-child(even) {
+    color: lightslategray;
+}
+
 .search-container {
     display: flex;
     flex-direction: row;
@@ -203,4 +209,38 @@
 
 .location>span {
     white-space: nowrap;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(13, 2, 2);
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 10%;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+.text-head {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-detail {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+    font-size: 14px;
+    font-weight: 400;
 }
