@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    min-height: 40vh;
+}
+
+.login-text-container {
+    width: 100%;
+    padding: 4rem 3rem 2rem 6rem;
+}
+
+.logo-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signup-btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.login-image-container {
+    width: 100%;
+    height: 100
+}
+
+/* Description-container */
+
+.descp-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-input-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    border: 2px solid #fc8019;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    align-items: center;
+}
+
+.search-input-container input {
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.search-input-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.find-food {
+    background-color: #fc8019;
+    height: 100%;
+    padding: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+.padding-container {
+    padding: 20px 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-wrap: nowrap;
+    align-items: center;
+}
+
+.padding-container a {
+    color: gray;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.bx {
+    color: gray;
+    font-weight: 600;
+}
+
+.popular-cities-container {
+    margin-top: 2rem;
+    font-size: 0.6rem;
+    color: gray;
+    font-weight: lighter;
+}
+
+.city-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+}
+
+.city-name:nth-child(even) {
+    color: gray;
+}
+
+
+
+/* tracking container  */
+
+.tracking-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b1e16;
+    padding: 0px 3rem 4rem 3rem;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.order-container>h1 {
+    margin-top: 40px;
+    color: white;
+}
+
+.order-container>p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: rgba(206, 185, 185, 0.8);
+    text-wrap: balance;
+    text-align: center;
+}
+
+
+/* playstore container */
+
+.playstore-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.playstore-image-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.playstore-image-container>img {
+    height: 450px;
+    width: 200px;
+}
+
+.playstore-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 4rem;
+}
+
+.playstore-text-container>h1 {
+    text-wrap: balance;
+}
+
+.playstore-text-container>p {
+    text-wrap: balance;
+}
+
+.play-logo-container {
+    display: flex;
+    gap: 20px;
+}
+
+.right-play-image {
+    margin-top: 40px;
+}
